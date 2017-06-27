@@ -18,7 +18,7 @@ import tid2013_input
 
 # training parameters
 INI_LEARNING_RATE = 0.0001
-MAX_STEPS = int(3000 * (3000/4))
+MAX_STEPS = int(3000 * (1800/4))
 BATCH_SIZE = 4
 MOVING_AVERAGE_DECAY = 0.9999  # The decay to use for the moving average.
 NUM_EPOCHS_PER_DECAY = 5000 # 350.0  # Epochs after which learning rate decays.
