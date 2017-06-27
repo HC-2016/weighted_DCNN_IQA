@@ -3,7 +3,7 @@
 @Time         : 2017/6/22 
 @Author       : Chen Huang
 @Update       : 
-@Discription  : A tensorflow implementation of the network in "Bosse S, Maniry D, Müller K R, et al. Deep Neural 
+@Discription  : A tensorflow implementation of the network in "Bosse S, Maniry D, Muller K R, et al. Deep Neural 
 Networks for No-Reference and Full-Reference Image Quality Assessment[J]. arXiv preprint arXiv:1612.01697, 2016."
 """
 
