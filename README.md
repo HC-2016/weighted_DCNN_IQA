@@ -10,6 +10,7 @@ We only reproduce the weighted FR network here. Refer to [dmaniry/deepIQA][sourc
 
 ### Results
 We repeat 10 times on tid2013.
+
 | val img | test img | best epoch | train loss|  val metric | test metric |
 |:-----:|:-----:|:-----:|:-----:|:-----:| :-----:|
 | 17 10 16  3  6 | 11 21  5 22 24 | 2269 | 0.361 | 0.291/0.944/0.799/0.946/0.416 | 0.461/0.868/0.691/0.869/0.635 |
