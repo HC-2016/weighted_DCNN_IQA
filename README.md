@@ -21,7 +21,7 @@ Note:
 - the reference images and the epoch are indexed from 0.
 - the metric  includes  MAE/SROCC/KROCC/PLCC/RMSE.
 
-###TODO
+### TODO
 - [ ] complement all experiments.
 
 [source code]: https://github.com/dmaniry/deepIQA
