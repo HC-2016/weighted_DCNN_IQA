@@ -195,7 +195,7 @@ def train():
             assert not numpy.isnan(loss_value), 'Model diverged with loss = NaN'
 
             # Write the summaries and print an overview fairly often.
-            if step % iters_per_epoch == 0:
+            if step % iters_per_epoch == 0 or (step + 1) == tid2013.MAX_STEPS:
                 # Print status to stdout.
                 print('Epoch %d (Step %d): loss = %.3f' % (step / iters_per_epoch, step, loss_value))
                 # Update the events file.
@@ -226,6 +226,7 @@ def train():
 
 
 if __name__ == '__main__':
+    print('data order: %s' % ORDER)
     tid2013_input.load_data()
 
     train()
